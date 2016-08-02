@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fitcen.parkdusang.healthtrainer.CreateExercise">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/trainer_darkblue"
+                android:text="Inbody Info" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="키"
+                android:textSize="27dp"
+                android:textColor="#406d93"
+                android:textColorHighlight="#5e809c"/>
+
+            <EditText
+                android:id="@+id/inbodyHeight"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="몸무게"
+                android:textSize="27dp"
+                android:textColor="#406d93"
+                android:textColorHighlight="#5e809c"/>
+
+            <EditText
+                android:id="@+id/inbodyWeight"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="근육량"
+                android:textSize="27dp"
+                android:textColor="#406d93"
+                android:textColorHighlight="#5e809c"/>
+
+            <EditText
+                android:id="@+id/inbodyMuscle"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="체지방량"
+                android:textSize="27dp"
+                android:textColor="#406d93"
+                android:textColorHighlight="#5e809c"/>
+
+            <EditText
+                android:id="@+id/inbodyFatAmount"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="체지방률"
+                android:textSize="27dp"
+                android:textColor="#406d93"
+                android:textColorHighlight="#5e809c"/>
+
+            <EditText
+                android:id="@+id/inbodyFatRate2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="BMI"
+                android:textSize="27dp"
+                android:textColor="#406d93"
+                android:textColorHighlight="#5e809c"/>
+
+            <EditText
+                android:id="@+id/inbodyBMI"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/inbodyok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ok"
+                android:background="@drawable/trainrbtn"
+                android:textColor="#ffffff"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/inbodycancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cancel"
+                android:background="@drawable/trainrbtn"
+                android:textColor="#ffffff"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#785970</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="trainer_blackblue">#474c56</color>
+    <color name="customer_blackpink">#785970</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="customer_red">#EA636C</color>
+    <color name="customer_white">#FEFDF5</color>
+    <color name="customer_ivry">#F9F4D8</color>
+    <color name="customer_yellow">#EBCE90</color>
+    <color name="customer_pink">#F7A09A</color>
+    <color name="customer_pinkgray">#DECECF</color>
+    <color name="customer_darkgray">#7B7A7B</color>
+    <color name="trainer_gray">#909CAF</color>
+    <color name="trainer_darkblue">#3D5476</color>
+    <color name="trainer_bluegray">#839CB2</color>
+    <color name="trainer_skyblue">#CDEBFE</color>
+    <color name="trainer_lightblue">#A1C8DF</color>
+    <color name="trainer_darkgray">#708299</color>
+    <color name="trainer_lightgray">#CDD3DB</color>
+    <color name="trainer_white">#FEFFFF</color>
+</resources>

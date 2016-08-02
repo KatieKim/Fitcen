@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context="com.fitcen.parkdusang.healthtrainer.CreateExercise">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="초기 입력값을 넣어 주세요"
+            android:textSize="30dp"
+            android:textColor="#406d93"
+            android:textColorHighlight="#5e809c"/>/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:gravity="center"
+                    android:text="키"
+                    android:textColor="#406d93"
+                    android:textColorHighlight="#5e809c"/>/>
+
+                <EditText
+                    android:id="@+id/ri_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:gravity="center"
+                    android:text="초기 몸무게"
+                    android:textColor="#406d93"
+                    android:textColorHighlight="#5e809c"/>/>
+
+                <EditText
+                    android:id="@+id/ri_fweight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:gravity="center"
+                    android:text="목표 몸무게"
+                    android:textColor="#406d93"
+                    android:textColorHighlight="#5e809c"/>
+                    />
+
+                <EditText
+                    android:id="@+id/ri_gweight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+            <TableRow android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:gravity="center"
+                    android:text="나의 한마디!"
+                    android:textColor="#406d93"
+                    android:textColorHighlight="#5e809c"/>/>
+
+                <EditText
+                    android:id="@+id/one_coment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/ri_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOkClick"
+                android:text="ok"
+                android:background="@drawable/customerbtn"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
